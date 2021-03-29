@@ -1,6 +1,5 @@
 #include <windows.h>
 #include <wtypes.h>
-#include <iostream>
 #include <math.h>
 
 
