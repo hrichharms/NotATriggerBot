@@ -53,7 +53,7 @@ int main() {
     // define sum variables
     int start_color_sum, last_color_sum;
 
-    //macro loop
+    // macro loop
     while (1) {
         // wait for key to be pressed and released
         while (!GetAsyncKeyState(key)) {}
