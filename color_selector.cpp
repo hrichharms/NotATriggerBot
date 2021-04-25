@@ -132,9 +132,6 @@ int main() {
         while (GetAsyncKeyState(control_key)) {
             // get pixel values and insert them into values tree
             get_pixel_values(device_handle, check_x, check_y, &r, &g, &b);
-            r /= 3;
-            g /= 3;
-            b /= 3;
             if (!search(values_tree, r, g, b)) {
                 insert(values_tree, r, g, b);
                 n ++;
