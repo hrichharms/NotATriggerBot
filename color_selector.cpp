@@ -121,7 +121,7 @@ int main() {
 
     // macro settings
     int control_key = 0x54;
-    int save_key = 0x54;
+    int save_key = 0x52;
 
     // pixel value integers
     int r, g, b;
