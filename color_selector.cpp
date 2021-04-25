@@ -1,7 +1,6 @@
 #include <windows.h>
 #include <wtypes.h>
 #include <fstream>
-#include <string>
 #include <stack>
 
 
